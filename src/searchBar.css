@@ -1,0 +1,11 @@
+#btn{
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.226) !important;
+    border-radius: 50% !important;
+}
+
+#standard-basic{
+    color:white !important;
+    height: 1rem;
+    /* border-bottom:1px solid white !important; */
+}
