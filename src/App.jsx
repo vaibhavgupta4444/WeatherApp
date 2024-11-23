@@ -74,7 +74,7 @@ function App() {
       <div className='xl:w-6/12 lg:w-4/5 lg:h-4/5 w-full h-full sm:flex sm:justify-self-center'>
       {
         displayLoader?<div className='w-full h-full bg-black opacity-70 flex flex-col justify-center items-center flex-wrap'>
-          <img className='h-1/5 lg:h-2/5' src='src\assets\icon\WeatherIcons.gif'/>
+          <img className='h-1/5 lg:h-2/5' src='/icon/WeatherIcons.gif'/>
           <p className='w-full text-white flex justify-center text-xl'>Delecting Your Location</p>
           <p className='w-1/2 text-center text-white flex justify-center text-sm'>Your current location will be displayed 
             on the App & used for calculating Real time weather
