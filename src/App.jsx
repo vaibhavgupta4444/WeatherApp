@@ -23,9 +23,9 @@ function App() {
     }else{
       setInfo((previousData) => {
         return {...previousData,...newInfo}
-    });
-    setDisplay(false);
-  }
+      } );
+    }
+  setDisplay(false);
   }
 
   useEffect(()=>{
@@ -81,7 +81,7 @@ function App() {
           </p>
           </div>:
         <>
-          <Static location={info.city} countryCode={info.country} temperature={info.temperature}/>
+          <Static location={info.city} countryCode={info.country} temperature={info.temperature} description={info.description} />
           <Features info={info} updateInfo={updateInfo} setDisplay={setDisplay}/>
         </>
       } 
